@@ -1,0 +1,30 @@
+.navbar {
+  background-color: white !important;
+  padding-left: 5rem !important;
+}
+.brand {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.nav-link {
+  font-weight: bold;
+}
+.btn {
+  background-color: #2bd0d0;
+  color: white !important;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 31px;
+  width: 140px;
+  height: 49px;
+  margin-right: 8rem !important;
+}
+.btn:hover {
+  background-color: #86f0f0;
+  color: aliceblue;
+}
+.Login {
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.dropdown-item {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  /* display: flex; */
+}
+.dropdown-menu {
+  background-color: #2c2246;
+  border-radius: 10px;
+  width: fit-content;
+}
+.btn-res {
+  margin-left: 4rem;
+  margin-right: 4rem !important;
+}

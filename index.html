@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/link container.css" />
+    <link rel="stylesheet" href="./styles/page-container.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/cards.css">
+    <link rel="stylesheet" href="./styles/dropdowon.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand brand" href="#">Shortly</a>
+      <div class="dropdown dropleft">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        
+      <span class="navbar-toggler-icon"></span>
+    </button>
+       
+          <div class="dropdown-menu  ">
+            <a class="dropdown-item" href="#">Features</a>
+            <a class="dropdown-item" href="#">Pricing</a>
+            <a class="dropdown-item" href="#">Recources</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">login</a>
+            <button class="btn btn-res">sgin up</button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Features <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resources</a>
+          </li>
+        </ul>
+        <a class="Login mr-4">
+          Login
+        </a>
+        <button class="navbar-text btn">
+          Sgin up
+        </button>
+      </div>
+    </nav>
+    <div class="header">
+      <img
+        class="illustration-working"
+        src="./images/illustration-working.svg"
+        alt=""
+      />
+      <div class="headerData">
+        <h1 class="bigTitle">
+          More than just shorter links
+        </h1>
+        <p class="titleDescription mb-5">
+          Build your brand's recognation and grt detailed insights on how your
+          links performing
+        </p>
+        <button class="btn">Get started</button>
+      </div>
+    </div>
+  
+    <div class="link-container">
+      <div class="link-box">
+        <input
+          class="link-input pl-4 "
+          placeholder="Shorten a link here.."
+          type="text"
+        />
+        <button class="shortenBtn">Shorten it!</button>
+        <div class="invalid-msg">Please add a link</div>
+      </div>
+    </div>
+
+<div class="page-container">
+  <div class="big-page-content" >
+  <div class="links-container">
+
+  </div>
+      <!-- <div class="shorten-link-container mt-4">
+          <span class="origin-link mt-4 ml-5">https://getbootstrap.com</span>
+          <span class="shorten-link mt-4">https://shdjhdusy.com</span>
+          <button class="copy-btn">Copy</button>
+      </div>
+      <div class="shorten-link-container mt-4">
+          <span class="origin-link mt-4 ml-5">https://getbootstrap.com</span>
+          <span class="shorten-link mt-4">https://shdjhdusy.com</span>
+          <button class="copy-btn copied">Copied !</button>
+      </div> -->
+      <div class="comp-explain ">
+          <h1 class="adv-title">
+            Advanced Statistics
+                      </h1>
+          <p class="adv-title-description">
+              Track how your links are performing across the web with
+          </br> ouer advanced statistics dashboard
+             
+          </p>
+      </div>
+      <div class="Cards">
+          <div class="card-container">
+              <!-- <div class="card-icon"></div> -->
+            <img class="card-icon" src="../url-shorting/images/icon-brand-recognition.svg" alt="">
+          <h4 class="card-title"> Brand recognation</h4>
+               <p class="card-prag"> Boost your brand recognation with each click. Genericlinks don't mean a thing. Branded links help instil confidence in your content </p>
+          </div>
+<div class="blue-line"></div>
+
+    <div class="card-container second">
+        <!-- <div class="card-icon"></div> -->
+      <img class="card-icon" src="../url-shorting/images/icon-detailed-records.svg" alt="">
+    <h4 class="card-title"> Detailed records</h4>
+         <p class="card-prag"> Gain insights into how is clicking your link .
+              know when and where people engage with your content helps inform better descions </p>
+    </div>
+<div class="blue-line"></div>
+<div class="card-container third">
+    <!-- <div class="card-icon"></div> -->
+  <img class="card-icon" src="../url-shorting/images/icon-fully-customizable.svg" alt="">
+<h4 class="card-title"> Fully customizable </h4>
+     <p class="card-prag"> Improve brand awareness and content discoverability through customizable links. supercharging audience engagement. </p>
+</div>
+      </div>
+  </div>
+    </div>
+
+    <div class="footer">
+<div class="footer-top">
+    <div class="content">
+        <h3 id="content-desc">Boost your links today</h3>
+        <button class="btn ml-5 mt-2">Get started</button>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="footer-containers">
+        <p class="cont-title brand">Shortly</p>
+      
+
+
+        </div>
+   
+    <div class="footer-containers">
+        <p class="cont-title">Features</p>
+       
+            <p  class="cont-links">Link shortenig</p>
+            <p  class="cont-links">Branded Links</p>
+            <p  class="cont-links">Analytics</p>
+
+
+    
+    </div>
+    <div class="footer-containers">
+     
+        <p class="cont-title">Resources</p>
+        
+            <p  class="cont-links">Blog</p>
+            <p  class="cont-links">Developers</p>
+            <p  class="cont-links">Support</p>
+
+
+       
+    </div>
+    <div class="footer-containers">
+       
+        <p class="cont-title">Company</p>
+        
+            <p  class="cont-links">about</p>
+            <p  class="cont-links">our team</p>
+            <p  class="cont-links">Career</p>
+            <p  class="cont-links">Contact us</p>
+
+
+
+    </div>
+    <div class="footer-containers">
+       
+        <div class="social-container">
+          <img class="social-links" src="./images/icon-facebook.svg" alt="">
+          <img class="social-links"  src="./images/icon-twitter.svg" alt="">
+         <img class="social-links"  src="./images//icon-pinterest.svg" alt="">
+         <img class="social-links"  src="./images/icon-instagram.svg" alt=""> 
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

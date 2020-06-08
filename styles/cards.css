@@ -1,0 +1,66 @@
+.Cards {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* height: 17rem; */
+  width: 25rem;
+  position: relative;
+  border-radius: 10px;
+  padding: 5rem 2rem 2rem 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card-icon {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  top: -1.8rem;
+  background-color: #140e22;
+  /* background-image: url(../images/icon-brand-recognition.svg); */
+}
+.blue-line {
+  height: 0.5rem;
+  width: 2rem;
+  background-color: teal;
+  margin-top: 15%;
+  margin-right: 0px;
+}
+.second {
+  margin-top: 5%;
+}
+.third {
+  margin-top: 10%;
+}
+.card-prag {
+  font-size: 16px;
+  /* font-weight: bold; */
+  color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .Cards {
+    flex-wrap: wrap;
+  }
+  .blue-line {
+    width: 0.5rem;
+    height: 2rem;
+    background-color: teal;
+    margin-top: 0px;
+    margin-left: 50%;
+  }
+  .second {
+    margin-top: 0px;
+  }
+  .third {
+    margin-top: 0px;
+  }
+}
