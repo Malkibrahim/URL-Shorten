@@ -10,9 +10,7 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
 }
-.links-container {
-  /* margin-top: 10%; */
-}
+
 .shorten-link-container {
   position: relative;
   display: flex;
@@ -81,18 +79,21 @@
   font-weight: bold;
 }
 @media (max-width: 768px) {
+  .big-page-content {
+    margin-top: 40%;
+  }
+
   .shorten-link-container {
+    display: flex;
     flex-direction: column;
-    width: 80%;
     flex-wrap: wrap;
-    box-sizing: border-box;
-    height: 50%;
-    justify-content: space-around;
-    margin-top: 30%;
+    width: 80%;
+
+    margin-top: 5%;
   }
   .copy-btn {
     /* height: 100%t; */
-    width: fit-content;
+    /* width: fit-content; */
     /* top: auto; */
     margin: 1.5rem;
     height: fit-content;
